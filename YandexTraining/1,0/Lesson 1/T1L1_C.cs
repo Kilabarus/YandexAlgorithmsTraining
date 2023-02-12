@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace YandexTraining._1_0.Lesson_1
 {
+    // https://contest.yandex.ru/contest/27393/problems/C/
     internal class T1L1_C
     {
         static (int code, int number) GetCodeAndNumber(string phoneNumber)

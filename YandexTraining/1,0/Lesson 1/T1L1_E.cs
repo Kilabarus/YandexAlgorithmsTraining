@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace YandexTraining._1_0.Lesson_1
 {
+    // https://contest.yandex.ru/contest/27393/problems/E/
     internal class T1L1_E
     {
         static bool IsInteger(double number)
@@ -13,7 +14,7 @@ namespace YandexTraining._1_0.Lesson_1
             return Math.Abs(number % 1) <= (Double.Epsilon * 100);
         }
 
-        static void Main(string[] args)
+        static void Solution(string[] args)
         {
             // K1 M K2 P2 N2
             string[] input = Console.ReadLine().Split(' ');
@@ -23,12 +24,6 @@ namespace YandexTraining._1_0.Lesson_1
             int K2 = int.Parse(input[2]);
             int P2 = int.Parse(input[3]);
             int N2 = int.Parse(input[4]);
-
-            if (K1 <= 0 || M <= 0 || K2 <= 0 || P2 <= 0 || N2 <= 0)
-            {
-                Console.WriteLine("-1 -1");
-                return;
-            }
 
             // Этаж не может быть больше кол-ва этажей в доме
             if (N2 > M)
@@ -106,43 +101,27 @@ namespace YandexTraining._1_0.Lesson_1
             }
 
             // Продолжение тех же формул, только теперь неизвестная переменная - стакнутый этаж квартиры K1
-            int N1S = IsInteger(K1 * 1.0 / APFMax) ? K1 / APFMax : (int)Math.Ceiling(K1 * 1.0 / APFMax);
-            int prevP1 = IsInteger(N1S * 1.0 / M) ? N1S / M : (int)Math.Ceiling(N1S * 1.0 / M);
-            int prevN1Real = N1S % M == 0 ? M : N1S % M;
+            int N1SMin = IsInteger(K1 * 1.0 / APFMax) ? K1 / APFMax : (int)Math.Ceiling(K1 * 1.0 / APFMax);
+            int P1Min = IsInteger(N1SMin * 1.0 / M) ? N1SMin / M : (int)Math.Ceiling(N1SMin * 1.0 / M);
+            int N1RealMin = N1SMin % M == 0 ? M : N1SMin % M;
 
-            // Если получим разные P1 и N1 для разных APF (от APFMax до APFMin), то напишем 0 по ТЗ
-            bool differentP1 = false;
-            bool differentN1Real = false;
+            int N1SMax = IsInteger(K1 * 1.0 / APFMin) ? K1 / APFMin : (int)Math.Ceiling(K1 * 1.0 / APFMin);
+            int P1Max = IsInteger(N1SMax * 1.0 / M) ? N1SMax / M : (int)Math.Ceiling(N1SMax * 1.0 / M);
+            int N1RealMax = N1SMax % M == 0 ? M : N1SMax % M;
 
-            for (int APF = APFMax - 1; APF >= APFMin; APF--)
+
+            if (P1Min == P1Max)
             {
-                N1S = IsInteger(K1 * 1.0 / APF) ? K1 / APF : (int)Math.Ceiling(K1 * 1.0 / APF);
-                int P1 = IsInteger(N1S * 1.0 / M) ? N1S / M : (int)Math.Ceiling(N1S * 1.0 / M);
-                int N1Real = N1S % M == 0 ? M : N1S % M;
-
-                if (P1 != prevP1)
-                {
-                    differentP1 = true;
-                }
-
-                if (N1Real != prevN1Real)
-                {
-                    differentN1Real = true;
-                }
-            }
-
-            if (!differentP1)
-            {
-                Console.Write($"{prevP1} ");
+                Console.Write($"{P1Min} ");
             }
             else
             {
                 Console.Write($"0 ");
             }
 
-            if (!differentN1Real)
+            if (N1RealMin == N1RealMax)
             {
-                Console.Write($"{prevN1Real}");
+                Console.Write($"{N1RealMin}");
             }
             else
             {

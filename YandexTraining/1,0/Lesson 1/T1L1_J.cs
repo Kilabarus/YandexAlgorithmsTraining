@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace YandexTraining
+namespace YandexTraining._1_0.Lesson_1
 {
-    internal class Program
+    internal class T1L1_J
     {
         static string[] GetInput()
         {
@@ -146,7 +150,7 @@ namespace YandexTraining
             return $"2 {x} {y}";
         }
 
-        static void Main()
+        static void Solution()
         {
             string[] input = GetInput();
 
@@ -157,7 +161,7 @@ namespace YandexTraining
             double e = double.Parse(input[4]);
             double f = double.Parse(input[5]);
 
-            Console.WriteLine(GetAnswer(a, b, c, d, e, f));            
+            Console.WriteLine(GetAnswer(a, b, c, d, e, f));
         }
     }
 }
