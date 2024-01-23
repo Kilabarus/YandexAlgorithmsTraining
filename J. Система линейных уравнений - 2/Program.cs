@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+//https://contest.yandex.ru/contest/27393/problems/J/
+
 namespace YandexTraining
 {
     internal class Program
@@ -86,6 +88,7 @@ namespace YandexTraining
                 }
 
                 SolveEquation(c, d, f);
+                return;
             }
 
             if (c == 0 && d == 0)
@@ -97,6 +100,7 @@ namespace YandexTraining
                 }
 
                 SolveEquation(a, b, e);
+                return;
             }
 
             if (a == 0 && c == 0)

@@ -9,27 +9,45 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Тренировки 1.0", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Сложность, тестирование, особые случаи", "1. Сложность, тестирование, особые случаи", "{D42AB51D-D729-4FBB-9BB0-E100F83369B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{0914504D-F7EC-48AE-B889-A1C143384E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{0914504D-F7EC-48AE-B889-A1C143384E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Кондиционер", "A. Кондиционер\A. Кондиционер.csproj", "{F07191C1-D809-433D-91C9-31C860635A73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A. Кондиционер", "A. Кондиционер\A. Кондиционер.csproj", "{F07191C1-D809-433D-91C9-31C860635A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Треугольник", "B. Треугольник\B. Треугольник.csproj", "{B20A759E-095E-4799-8C03-FC67384F7AEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B. Треугольник", "B. Треугольник\B. Треугольник.csproj", "{B20A759E-095E-4799-8C03-FC67384F7AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C. Телефонные номера", "C. Телефонные номера\C. Телефонные номера.csproj", "{286D22C5-28D2-4336-9C65-E7B60056021C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Телефонные номера", "C. Телефонные номера\C. Телефонные номера.csproj", "{286D22C5-28D2-4336-9C65-E7B60056021C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D. Уравнение с корнем", "D. Уравнение с корнем\D. Уравнение с корнем.csproj", "{3AC568CB-583F-4357-8980-E4B7954974D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Уравнение с корнем", "D. Уравнение с корнем\D. Уравнение с корнем.csproj", "{3AC568CB-583F-4357-8980-E4B7954974D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Скорая помощь", "E. Скорая помощь\E. Скорая помощь.csproj", "{C06637BD-3DD0-4C77-A50E-DB27C5CA26EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E. Скорая помощь", "E. Скорая помощь\E. Скорая помощь.csproj", "{C06637BD-3DD0-4C77-A50E-DB27C5CA26EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F. Расстановка ноутбуков", "F. Расстановка ноутбуков\F. Расстановка ноутбуков.csproj", "{CF511251-F623-4E5D-94F6-660ABD2BAC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F. Расстановка ноутбуков", "F. Расстановка ноутбуков\F. Расстановка ноутбуков.csproj", "{CF511251-F623-4E5D-94F6-660ABD2BAC1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Детали", "G. Детали\G. Детали.csproj", "{AAEDB959-78A9-41F6-A0AB-62C636B98CAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G. Детали", "G. Детали\G. Детали.csproj", "{AAEDB959-78A9-41F6-A0AB-62C636B98CAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H. Метро", "H. Метро\H. Метро.csproj", "{EE559CC0-41C7-4C41-BAA1-557FEB0AACF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H. Метро", "H. Метро\H. Метро.csproj", "{EE559CC0-41C7-4C41-BAA1-557FEB0AACF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I. Узник замка Иф", "I. Узник замка Иф\I. Узник замка Иф.csproj", "{6EB3ADF0-6355-4F2B-9AC8-F59C5EB0A5B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I. Узник замка Иф", "I. Узник замка Иф\I. Узник замка Иф.csproj", "{6EB3ADF0-6355-4F2B-9AC8-F59C5EB0A5B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. Система линейных уравнений - 2", "J. Система линейных уравнений - 2\J. Система линейных уравнений - 2.csproj", "{6EACFA83-27FE-4587-8E92-D9DB2B3FE22A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Система линейных уравнений - 2", "J. Система линейных уравнений - 2\J. Система линейных уравнений - 2.csproj", "{6EACFA83-27FE-4587-8E92-D9DB2B3FE22A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Линейный поиск", "2. Линейный поиск", "{94297B6B-2CF3-495B-BF2B-6238F4FE04BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A. Возрастает ли список", "A. Возрастает ли список\A. Возрастает ли список.csproj", "{A298013B-89C6-4246-B45D-A5D75684FCAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B. Определить вид последовательности", "B. Определить вид последовательности\B. Определить вид последовательности.csproj", "{87A8FE73-9285-4C1E-99D5-5188DD933CBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Ближайшее число", "C. Ближайшее число\C. Ближайшее число.csproj", "{3707C11C-14FC-40B9-A806-9D9DEAE97643}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Больше своих соседей", "D. Больше своих соседей\D. Больше своих соседей.csproj", "{59D525A4-4334-4A36-8BC1-D0A853F95545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Чемпионат по метанию коровьих лепешек", "E. Чемпионат по метанию коровьих лепешек\E. Чемпионат по метанию коровьих лепешек.csproj", "{1856FCAC-FF60-41A7-80E0-8BD6A2C6588E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F. Симметричная последовательность", "F. Симметричная последовательность\F. Симметричная последовательность.csproj", "{DF4C42EE-BDB7-4EE3-A23A-823B2DACDF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Наибольшее произведение двух чисел", "G. Наибольшее произведение двух чисел\G. Наибольшее произведение двух чисел.csproj", "{5154C72F-97DE-4198-B522-5EABD2F81FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H. Наибольшее произведение трех чисел", "H. Наибольшее произведение трех чисел\H. Наибольшее произведение трех чисел.csproj", "{CC923BA5-756A-4323-A898-7889451322B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +103,38 @@ Global
 		{6EACFA83-27FE-4587-8E92-D9DB2B3FE22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EACFA83-27FE-4587-8E92-D9DB2B3FE22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EACFA83-27FE-4587-8E92-D9DB2B3FE22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A298013B-89C6-4246-B45D-A5D75684FCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A298013B-89C6-4246-B45D-A5D75684FCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A298013B-89C6-4246-B45D-A5D75684FCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A298013B-89C6-4246-B45D-A5D75684FCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A8FE73-9285-4C1E-99D5-5188DD933CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A8FE73-9285-4C1E-99D5-5188DD933CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A8FE73-9285-4C1E-99D5-5188DD933CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A8FE73-9285-4C1E-99D5-5188DD933CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3707C11C-14FC-40B9-A806-9D9DEAE97643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3707C11C-14FC-40B9-A806-9D9DEAE97643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3707C11C-14FC-40B9-A806-9D9DEAE97643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3707C11C-14FC-40B9-A806-9D9DEAE97643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D525A4-4334-4A36-8BC1-D0A853F95545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D525A4-4334-4A36-8BC1-D0A853F95545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D525A4-4334-4A36-8BC1-D0A853F95545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D525A4-4334-4A36-8BC1-D0A853F95545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1856FCAC-FF60-41A7-80E0-8BD6A2C6588E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1856FCAC-FF60-41A7-80E0-8BD6A2C6588E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1856FCAC-FF60-41A7-80E0-8BD6A2C6588E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1856FCAC-FF60-41A7-80E0-8BD6A2C6588E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4C42EE-BDB7-4EE3-A23A-823B2DACDF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4C42EE-BDB7-4EE3-A23A-823B2DACDF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4C42EE-BDB7-4EE3-A23A-823B2DACDF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4C42EE-BDB7-4EE3-A23A-823B2DACDF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5154C72F-97DE-4198-B522-5EABD2F81FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5154C72F-97DE-4198-B522-5EABD2F81FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5154C72F-97DE-4198-B522-5EABD2F81FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5154C72F-97DE-4198-B522-5EABD2F81FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC923BA5-756A-4323-A898-7889451322B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC923BA5-756A-4323-A898-7889451322B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC923BA5-756A-4323-A898-7889451322B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC923BA5-756A-4323-A898-7889451322B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +151,15 @@ Global
 		{EE559CC0-41C7-4C41-BAA1-557FEB0AACF0} = {D42AB51D-D729-4FBB-9BB0-E100F83369B9}
 		{6EB3ADF0-6355-4F2B-9AC8-F59C5EB0A5B6} = {D42AB51D-D729-4FBB-9BB0-E100F83369B9}
 		{6EACFA83-27FE-4587-8E92-D9DB2B3FE22A} = {D42AB51D-D729-4FBB-9BB0-E100F83369B9}
+		{94297B6B-2CF3-495B-BF2B-6238F4FE04BD} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
+		{A298013B-89C6-4246-B45D-A5D75684FCAE} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{87A8FE73-9285-4C1E-99D5-5188DD933CBF} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{3707C11C-14FC-40B9-A806-9D9DEAE97643} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{59D525A4-4334-4A36-8BC1-D0A853F95545} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{1856FCAC-FF60-41A7-80E0-8BD6A2C6588E} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{DF4C42EE-BDB7-4EE3-A23A-823B2DACDF38} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{5154C72F-97DE-4198-B522-5EABD2F81FDC} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
+		{CC923BA5-756A-4323-A898-7889451322B4} = {94297B6B-2CF3-495B-BF2B-6238F4FE04BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}

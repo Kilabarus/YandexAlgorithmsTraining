@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+//https://contest.yandex.ru/contest/27393/problems/H/
+
 namespace YandexTraining
 {
     internal class Program
