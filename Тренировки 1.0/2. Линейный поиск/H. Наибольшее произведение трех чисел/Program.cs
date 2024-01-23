@@ -4,6 +4,8 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
+// https://contest.yandex.ru/contest/27472/problems/H/
+
 namespace YandexTraining
 {
     internal class Program
