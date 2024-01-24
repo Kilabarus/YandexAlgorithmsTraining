@@ -34,8 +34,10 @@ namespace YandexTraining
 
             StringBuilder output = new StringBuilder();
 
+            HashSet<char> availableButtons = new HashSet<char>(input[0].Distinct());
+            HashSet<char> neededButtons = new HashSet<char>(input[1].Distinct());
 
-
+            output.Append(neededButtons.Except(availableButtons).Count());
             return output.ToString();
         }
 

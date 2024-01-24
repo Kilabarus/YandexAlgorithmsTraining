@@ -34,7 +34,16 @@ namespace YandexTraining
 
             StringBuilder output = new StringBuilder();
 
+            HashSet<string> set = new();
+            foreach (string s in input)
+            {
+                foreach (string word in s.Split(' ', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    set.Add(word);
+                }
+            }
 
+            output.Append(set.Count());
 
             return output.ToString();
         }

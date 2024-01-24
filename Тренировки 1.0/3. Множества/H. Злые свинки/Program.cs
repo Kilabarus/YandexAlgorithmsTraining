@@ -25,18 +25,14 @@ namespace YandexTraining
 
         static string Solve(List<string> input)
         {
-            List<int> ConvertStringToListOfInt32(string ints)
+            int numOfBirds = int.Parse(input[0]);
+            HashSet<int> ys = new();
+            for (int i = 1; i <= numOfBirds; i++)
             {
-                return ints.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                           .Select(int.Parse)
-                           .ToList();
+                ys.Add(int.Parse(input[i].Split()[0]));
             }
 
-            StringBuilder output = new StringBuilder();
-
-
-
-            return output.ToString();
+            return ys.Count().ToString();
         }
 
         static void Main(string[] args)
