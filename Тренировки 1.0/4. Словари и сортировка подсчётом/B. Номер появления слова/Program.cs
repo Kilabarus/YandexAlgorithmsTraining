@@ -34,7 +34,20 @@ namespace YandexTraining
 
             StringBuilder output = new StringBuilder();
 
-            
+            Dictionary<string, int> words = new();
+
+            input.ForEach(line => line.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList().ForEach(word =>
+            {
+                if (!words.ContainsKey(word))
+                {
+                    output.Append("0 ");
+                    words.Add(word, 1);
+
+                    return;
+                }
+
+                output.Append($"{words[word]++} ");
+            }));
 
             return output.ToString();
         }

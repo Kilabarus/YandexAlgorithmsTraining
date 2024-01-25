@@ -21,22 +21,29 @@ namespace YandexTraining
             const string OUTPUT_FILE = "output.txt";
 
             File.WriteAllText(OUTPUT_FILE, output);
-        }
+        }        
 
         static string Solve(List<string> input)
-        {
-            List<int> ConvertStringToListOfInt32(string ints)
+        {                        
+            int numberOfWords = int.Parse(input[0]);
+            Dictionary<string, string> synonyms = new();
+
+            foreach (var pairOfWords in input.Skip(1).Take(numberOfWords))
             {
-                return ints.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                           .Select(int.Parse)
-                           .ToList();
+                string[] words = pairOfWords.Split();
+
+                if (!synonyms.ContainsKey(words[0]) )
+                {
+                    synonyms.Add(words[0], words[1]);
+                }
+
+                if (!synonyms.ContainsKey(words[1]))
+                {
+                    synonyms.Add(words[1], words[0]);
+                }                    
             }
 
-            StringBuilder output = new StringBuilder();
-
-            
-
-            return output.ToString();
+            return synonyms[input[1 + numberOfWords]];
         }
 
         static void Main(string[] args)

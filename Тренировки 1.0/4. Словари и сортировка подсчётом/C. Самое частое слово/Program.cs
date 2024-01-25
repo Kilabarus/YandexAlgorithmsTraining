@@ -32,11 +32,23 @@ namespace YandexTraining
                            .ToList();
             }
 
-            StringBuilder output = new StringBuilder();
+            SortedDictionary<string, int> words = new();            
 
-            
+            input.ForEach(line => line.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList().ForEach(word =>
+            {
+                if (!words.ContainsKey(word))
+                {
+                    words.Add(word, 1);
+                    return;
+                }
 
-            return output.ToString();
+                ++words[word];
+            }));
+
+            int maxFrequency = words.Values.Max();
+            string mostFrequentWord = words.First(word => words[word.Key] == maxFrequency).Key;
+
+            return mostFrequentWord;
         }
 
         static void Main(string[] args)

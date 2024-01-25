@@ -71,9 +71,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G. Черепахи", "Тр
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H. Злые свинки", "Тренировки 1.0\3. Множества\H. Злые свинки\H. Злые свинки.csproj", "{9B1C99C6-0B68-4B3D-814B-BA459E4BA37F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I. Полиглоты", "Тренировки 1.0\3. Множества\I. Полиглоты\I. Полиглоты.csproj", "{0D3BA153-0EBF-4030-9837-152E7AB319C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I. Полиглоты", "Тренировки 1.0\3. Множества\I. Полиглоты\I. Полиглоты.csproj", "{0D3BA153-0EBF-4030-9837-152E7AB319C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. Пробежки по Манхэттену", "Тренировки 1.0\3. Множества\J. Пробежки по Манхэттену\J. Пробежки по Манхэттену.csproj", "{093246AB-CE22-4DDD-A2F2-99905BA4E37C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Пробежки по Манхэттену", "Тренировки 1.0\3. Множества\J. Пробежки по Манхэттену\J. Пробежки по Манхэттену.csproj", "{093246AB-CE22-4DDD-A2F2-99905BA4E37C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Словари и сортировка подсчётом", "4. Словари и сортировка подсчётом", "{64E57F0D-12F0-4C8B-9613-E950A7B6B837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Словарь синонимов", "Тренировки 1.0\4. Словари и сортировка подсчётом\A. Словарь синонимов\A. Словарь синонимов.csproj", "{2D90532C-4D04-4699-ABAB-0AD69D93A876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Номер появления слова", "Тренировки 1.0\4. Словари и сортировка подсчётом\B. Номер появления слова\B. Номер появления слова.csproj", "{76ABDEFC-E560-475C-83EE-22E8F684C807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C. Самое частое слово", "Тренировки 1.0\4. Словари и сортировка подсчётом\C. Самое частое слово\C. Самое частое слово.csproj", "{AED70950-A872-47B9-9917-2698CAFCC280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D. Клавиатура", "Тренировки 1.0\4. Словари и сортировка подсчётом\D. Клавиатура\D. Клавиатура.csproj", "{66A62560-DA67-43BF-A0DE-BD51B11AD081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Пирамида", "Тренировки 1.0\4. Словари и сортировка подсчётом\E. Пирамида\E. Пирамида.csproj", "{510A6A8E-5DCD-49BC-A08E-808C3499E5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F. Продажи", "Тренировки 1.0\4. Словари и сортировка подсчётом\F. Продажи\F. Продажи.csproj", "{611BBA0E-8BF4-4885-80DF-A91106B8A4CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Банковские счета", "Тренировки 1.0\4. Словари и сортировка подсчётом\G. Банковские счета\G. Банковские счета.csproj", "{8FCB4F59-0BE8-4C8C-BF1A-45CD5C0D60DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H. Расшифровка письменности Майя", "Тренировки 1.0\4. Словари и сортировка подсчётом\H. Расшифровка письменности Майя\H. Расшифровка письменности Майя.csproj", "{F618284E-CDD7-43D4-AC38-6DC8F13647D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I. Контрольная по ударениям", "Тренировки 1.0\4. Словари и сортировка подсчётом\I. Контрольная по ударениям\I. Контрольная по ударениям.csproj", "{C364E7B1-EC5B-4A69-963F-FD80E58B6F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. Дополнительная проверка на списывание", "Тренировки 1.0\4. Словари и сортировка подсчётом\J. Дополнительная проверка на списывание\J. Дополнительная проверка на списывание.csproj", "{1E26A3AB-4639-4C41-8528-53086A4563AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +231,46 @@ Global
 		{093246AB-CE22-4DDD-A2F2-99905BA4E37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093246AB-CE22-4DDD-A2F2-99905BA4E37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093246AB-CE22-4DDD-A2F2-99905BA4E37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D90532C-4D04-4699-ABAB-0AD69D93A876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D90532C-4D04-4699-ABAB-0AD69D93A876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D90532C-4D04-4699-ABAB-0AD69D93A876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D90532C-4D04-4699-ABAB-0AD69D93A876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ABDEFC-E560-475C-83EE-22E8F684C807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ABDEFC-E560-475C-83EE-22E8F684C807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ABDEFC-E560-475C-83EE-22E8F684C807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ABDEFC-E560-475C-83EE-22E8F684C807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED70950-A872-47B9-9917-2698CAFCC280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED70950-A872-47B9-9917-2698CAFCC280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED70950-A872-47B9-9917-2698CAFCC280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED70950-A872-47B9-9917-2698CAFCC280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A62560-DA67-43BF-A0DE-BD51B11AD081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A62560-DA67-43BF-A0DE-BD51B11AD081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A62560-DA67-43BF-A0DE-BD51B11AD081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A62560-DA67-43BF-A0DE-BD51B11AD081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510A6A8E-5DCD-49BC-A08E-808C3499E5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510A6A8E-5DCD-49BC-A08E-808C3499E5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510A6A8E-5DCD-49BC-A08E-808C3499E5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510A6A8E-5DCD-49BC-A08E-808C3499E5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{611BBA0E-8BF4-4885-80DF-A91106B8A4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611BBA0E-8BF4-4885-80DF-A91106B8A4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611BBA0E-8BF4-4885-80DF-A91106B8A4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611BBA0E-8BF4-4885-80DF-A91106B8A4CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCB4F59-0BE8-4C8C-BF1A-45CD5C0D60DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCB4F59-0BE8-4C8C-BF1A-45CD5C0D60DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCB4F59-0BE8-4C8C-BF1A-45CD5C0D60DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCB4F59-0BE8-4C8C-BF1A-45CD5C0D60DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F618284E-CDD7-43D4-AC38-6DC8F13647D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F618284E-CDD7-43D4-AC38-6DC8F13647D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F618284E-CDD7-43D4-AC38-6DC8F13647D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F618284E-CDD7-43D4-AC38-6DC8F13647D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C364E7B1-EC5B-4A69-963F-FD80E58B6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C364E7B1-EC5B-4A69-963F-FD80E58B6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C364E7B1-EC5B-4A69-963F-FD80E58B6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C364E7B1-EC5B-4A69-963F-FD80E58B6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E26A3AB-4639-4C41-8528-53086A4563AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E26A3AB-4639-4C41-8528-53086A4563AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E26A3AB-4639-4C41-8528-53086A4563AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E26A3AB-4639-4C41-8528-53086A4563AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -247,6 +309,17 @@ Global
 		{9B1C99C6-0B68-4B3D-814B-BA459E4BA37F} = {5EEE93FB-26A5-40F9-A345-86EED2204FD5}
 		{0D3BA153-0EBF-4030-9837-152E7AB319C5} = {5EEE93FB-26A5-40F9-A345-86EED2204FD5}
 		{093246AB-CE22-4DDD-A2F2-99905BA4E37C} = {5EEE93FB-26A5-40F9-A345-86EED2204FD5}
+		{64E57F0D-12F0-4C8B-9613-E950A7B6B837} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
+		{2D90532C-4D04-4699-ABAB-0AD69D93A876} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{76ABDEFC-E560-475C-83EE-22E8F684C807} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{AED70950-A872-47B9-9917-2698CAFCC280} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{66A62560-DA67-43BF-A0DE-BD51B11AD081} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{510A6A8E-5DCD-49BC-A08E-808C3499E5C3} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{611BBA0E-8BF4-4885-80DF-A91106B8A4CE} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{8FCB4F59-0BE8-4C8C-BF1A-45CD5C0D60DE} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{F618284E-CDD7-43D4-AC38-6DC8F13647D7} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{C364E7B1-EC5B-4A69-963F-FD80E58B6F24} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
+		{1E26A3AB-4639-4C41-8528-53086A4563AE} = {64E57F0D-12F0-4C8B-9613-E950A7B6B837}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
