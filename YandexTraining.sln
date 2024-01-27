@@ -99,9 +99,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Дополнительн
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Префиксные суммы и два указателя", "5. Префиксные суммы и два указателя", "{40B25A4A-0046-440F-9131-ED2B8646FCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Стильная одежда", "Тренировки 1.0\5. Префиксные суммы и два указателя\A. Стильная одежда\A. Стильная одежда.csproj", "{CEDA3B92-3FD3-41B0-B31B-2DBDF3493FE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A. Стильная одежда", "Тренировки 1.0\5. Префиксные суммы и два указателя\A. Стильная одежда\A. Стильная одежда.csproj", "{CEDA3B92-3FD3-41B0-B31B-2DBDF3493FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Сумма номеров", "Тренировки 1.0\5. Префиксные суммы и два указателя\B. Сумма номеров\B. Сумма номеров.csproj", "{A9B61C21-1A5C-45CD-944C-0D4410F2049E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B. Сумма номеров", "Тренировки 1.0\5. Префиксные суммы и два указателя\B. Сумма номеров\B. Сумма номеров.csproj", "{A9B61C21-1A5C-45CD-944C-0D4410F2049E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Туризм", "Тренировки 1.0\5. Префиксные суммы и два указателя\C. Туризм\C. Туризм\C. Туризм.csproj", "{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Город Че", "Тренировки 1.0\5. Префиксные суммы и два указателя\D. Город Че\D. Город Че.csproj", "{73D08884-741E-41EA-9172-E3EDF79F32D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Красота превыше всего", "Тренировки 1.0\5. Префиксные суммы и два указателя\E. Красота превыше всего\E. Красота превыше всего.csproj", "{C1D39633-7178-4C42-AE75-DB1E0691278A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +291,18 @@ Global
 		{A9B61C21-1A5C-45CD-944C-0D4410F2049E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B61C21-1A5C-45CD-944C-0D4410F2049E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B61C21-1A5C-45CD-944C-0D4410F2049E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D08884-741E-41EA-9172-E3EDF79F32D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D08884-741E-41EA-9172-E3EDF79F32D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D08884-741E-41EA-9172-E3EDF79F32D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D08884-741E-41EA-9172-E3EDF79F32D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -337,6 +355,9 @@ Global
 		{40B25A4A-0046-440F-9131-ED2B8646FCC8} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
 		{CEDA3B92-3FD3-41B0-B31B-2DBDF3493FE3} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 		{A9B61C21-1A5C-45CD-944C-0D4410F2049E} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
+		{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
+		{73D08884-741E-41EA-9172-E3EDF79F32D7} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
+		{C1D39633-7178-4C42-AE75-DB1E0691278A} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
