@@ -107,7 +107,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Туризм", "Трен
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Город Че", "Тренировки 1.0\5. Префиксные суммы и два указателя\D. Город Че\D. Город Че.csproj", "{73D08884-741E-41EA-9172-E3EDF79F32D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Красота превыше всего", "Тренировки 1.0\5. Префиксные суммы и два указателя\E. Красота превыше всего\E. Красота превыше всего.csproj", "{C1D39633-7178-4C42-AE75-DB1E0691278A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E. Красота превыше всего", "Тренировки 1.0\5. Префиксные суммы и два указателя\E. Красота превыше всего\E. Красота превыше всего.csproj", "{C1D39633-7178-4C42-AE75-DB1E0691278A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F. Кондиционеры", "Тренировки 1.0\5. Префиксные суммы и два указателя\F. Кондиционеры\F. Кондиционеры.csproj", "{92C48298-10BB-46FB-9A54-DC03258942BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Счет в гипершашках", "Тренировки 1.0\5. Префиксные суммы и два указателя\G. Счет в гипершашках\G. Счет в гипершашках.csproj", "{88913D70-DA85-4615-95AF-20CDB3A0AABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -303,6 +307,14 @@ Global
 		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D39633-7178-4C42-AE75-DB1E0691278A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C48298-10BB-46FB-9A54-DC03258942BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C48298-10BB-46FB-9A54-DC03258942BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C48298-10BB-46FB-9A54-DC03258942BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C48298-10BB-46FB-9A54-DC03258942BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88913D70-DA85-4615-95AF-20CDB3A0AABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88913D70-DA85-4615-95AF-20CDB3A0AABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88913D70-DA85-4615-95AF-20CDB3A0AABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88913D70-DA85-4615-95AF-20CDB3A0AABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -358,6 +370,8 @@ Global
 		{1AC8FBA8-3C3F-466E-B65E-870B87F3A9B5} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 		{73D08884-741E-41EA-9172-E3EDF79F32D7} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 		{C1D39633-7178-4C42-AE75-DB1E0691278A} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
+		{92C48298-10BB-46FB-9A54-DC03258942BB} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
+		{88913D70-DA85-4615-95AF-20CDB3A0AABF} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
