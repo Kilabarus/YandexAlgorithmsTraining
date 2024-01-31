@@ -115,9 +115,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G. Счет в гиперш
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H. Подстрока", "Тренировки 1.0\5. Префиксные суммы и два указателя\H. Подстрока\H. Подстрока.csproj", "{42BABA47-BDD6-4300-9814-0C684EDE81FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I. Робот", "Тренировки 1.0\5. Префиксные суммы и два указателя\I. Робот\I. Робот.csproj", "{74DF05AA-1AB6-446B-935F-31E39588EBDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I. Робот", "Тренировки 1.0\5. Префиксные суммы и два указателя\I. Робот\I. Робот.csproj", "{74DF05AA-1AB6-446B-935F-31E39588EBDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. Треугольники", "Тренировки 1.0\5. Префиксные суммы и два указателя\J. Треугольники\J. Треугольники.csproj", "{E9691BC5-E195-44B3-B95C-90D6895A4856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Треугольники", "Тренировки 1.0\5. Префиксные суммы и два указателя\J. Треугольники\J. Треугольники.csproj", "{E9691BC5-E195-44B3-B95C-90D6895A4856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Бинарный поиск", "6. Бинарный поиск", "{3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Двоичный поиск", "Тренировки 1.0\6. Бинарный поиск\A. Двоичный поиск\A. Двоичный поиск.csproj", "{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Приближенный двоичный поиск", "Тренировки 1.0\6. Бинарный поиск\B. Приближенный двоичный поиск\B. Приближенный двоичный поиск.csproj", "{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +339,14 @@ Global
 		{E9691BC5-E195-44B3-B95C-90D6895A4856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9691BC5-E195-44B3-B95C-90D6895A4856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9691BC5-E195-44B3-B95C-90D6895A4856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +407,9 @@ Global
 		{42BABA47-BDD6-4300-9814-0C684EDE81FC} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 		{74DF05AA-1AB6-446B-935F-31E39588EBDD} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
 		{E9691BC5-E195-44B3-B95C-90D6895A4856} = {40B25A4A-0046-440F-9131-ED2B8646FCC8}
+		{3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
+		{1638D5C1-CAE7-4B0A-A505-56422EDF6C63} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
+		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
