@@ -121,9 +121,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Треугольники
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Бинарный поиск", "6. Бинарный поиск", "{3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Двоичный поиск", "Тренировки 1.0\6. Бинарный поиск\A. Двоичный поиск\A. Двоичный поиск.csproj", "{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A. Двоичный поиск", "Тренировки 1.0\6. Бинарный поиск\A. Двоичный поиск\A. Двоичный поиск.csproj", "{1638D5C1-CAE7-4B0A-A505-56422EDF6C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Приближенный двоичный поиск", "Тренировки 1.0\6. Бинарный поиск\B. Приближенный двоичный поиск\B. Приближенный двоичный поиск.csproj", "{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B. Приближенный двоичный поиск", "Тренировки 1.0\6. Бинарный поиск\B. Приближенный двоичный поиск\B. Приближенный двоичный поиск.csproj", "{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C. Дипломы", "Тренировки 1.0\6. Бинарный поиск\C. Дипломы\C. Дипломы.csproj", "{FE52F20F-4FB9-4C9E-A356-21017FEF705A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -347,6 +349,10 @@ Global
 		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE52F20F-4FB9-4C9E-A356-21017FEF705A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE52F20F-4FB9-4C9E-A356-21017FEF705A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE52F20F-4FB9-4C9E-A356-21017FEF705A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE52F20F-4FB9-4C9E-A356-21017FEF705A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -410,6 +416,7 @@ Global
 		{3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
 		{1638D5C1-CAE7-4B0A-A505-56422EDF6C63} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 		{F225F860-9885-4DA0-A6E7-4D6CDB17BFE2} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
+		{FE52F20F-4FB9-4C9E-A356-21017FEF705A} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
