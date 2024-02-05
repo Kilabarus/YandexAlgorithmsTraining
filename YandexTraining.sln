@@ -129,7 +129,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Дипломы", "Тре
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Космическое поселение", "Тренировки 1.0\6. Бинарный поиск\D. Космическое поселение\D. Космическое поселение.csproj", "{46FBE32B-3F9E-42D2-914D-9343CF1B9B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Улучшение успеваемости", "Тренировки 1.0\6. Бинарный поиск\E. Улучшение успеваемости\E. Улучшение успеваемости.csproj", "{1BC99B4F-2B52-4C21-BE29-ACBE4B87AA81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E. Улучшение успеваемости", "Тренировки 1.0\6. Бинарный поиск\E. Улучшение успеваемости\E. Улучшение успеваемости.csproj", "{1BC99B4F-2B52-4C21-BE29-ACBE4B87AA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F. Очень легкая задача", "Тренировки 1.0\6. Бинарный поиск\F. Очень легкая задача\F. Очень легкая задача.csproj", "{34B5B3E4-DAFA-4472-87D5-25A89C12575E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Площадь", "Тренировки 1.0\6. Бинарный поиск\G. Площадь\G. Площадь.csproj", "{AF56390C-5133-4B6F-AECF-1F8BF4FADF0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -365,6 +369,14 @@ Global
 		{1BC99B4F-2B52-4C21-BE29-ACBE4B87AA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC99B4F-2B52-4C21-BE29-ACBE4B87AA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC99B4F-2B52-4C21-BE29-ACBE4B87AA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B5B3E4-DAFA-4472-87D5-25A89C12575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B5B3E4-DAFA-4472-87D5-25A89C12575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B5B3E4-DAFA-4472-87D5-25A89C12575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B5B3E4-DAFA-4472-87D5-25A89C12575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF56390C-5133-4B6F-AECF-1F8BF4FADF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF56390C-5133-4B6F-AECF-1F8BF4FADF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF56390C-5133-4B6F-AECF-1F8BF4FADF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF56390C-5133-4B6F-AECF-1F8BF4FADF0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -431,6 +443,8 @@ Global
 		{FE52F20F-4FB9-4C9E-A356-21017FEF705A} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 		{46FBE32B-3F9E-42D2-914D-9343CF1B9B80} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 		{1BC99B4F-2B52-4C21-BE29-ACBE4B87AA81} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
+		{34B5B3E4-DAFA-4472-87D5-25A89C12575E} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
+		{AF56390C-5133-4B6F-AECF-1F8BF4FADF0F} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
