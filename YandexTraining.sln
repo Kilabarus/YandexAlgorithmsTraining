@@ -141,7 +141,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I. Субботник", "Т
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Медиана объединения", "Тренировки 1.0\6. Бинарный поиск\J. Медиана объединения\J. Медиана объединения.csproj", "{75039A66-DEEA-4674-BE3D-8C0D690B9FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K. Медиана объединения-2", "Тренировки 1.0\6. Бинарный поиск\K. Медиана объединения-2\K. Медиана объединения-2\K. Медиана объединения-2.csproj", "{BB6314B3-3A0F-4E80-9B17-C83695F51BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "K. Медиана объединения-2", "Тренировки 1.0\6. Бинарный поиск\K. Медиана объединения-2\K. Медиана объединения-2\K. Медиана объединения-2.csproj", "{BB6314B3-3A0F-4E80-9B17-C83695F51BEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Сортировка событий", "7. Сортировка событий", "{CC4525CF-F72F-4DC7-9254-78ECAC510228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Наблюдение за студентами", "Тренировки 1.0\7. Сортировка событий\A. Наблюдение за студентами\A. Наблюдение за студентами.csproj", "{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -401,6 +405,10 @@ Global
 		{BB6314B3-3A0F-4E80-9B17-C83695F51BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6314B3-3A0F-4E80-9B17-C83695F51BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6314B3-3A0F-4E80-9B17-C83695F51BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -473,6 +481,8 @@ Global
 		{F9BFE589-9429-45BD-935D-444AC068F373} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 		{75039A66-DEEA-4674-BE3D-8C0D690B9FA6} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
 		{BB6314B3-3A0F-4E80-9B17-C83695F51BEA} = {3C263EF8-81D6-4ED8-A758-5B5B4E1F27DB}
+		{CC4525CF-F72F-4DC7-9254-78ECAC510228} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
+		{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
