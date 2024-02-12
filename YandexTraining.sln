@@ -147,11 +147,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Сортировка с�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A. Наблюдение за студентами", "Тренировки 1.0\7. Сортировка событий\A. Наблюдение за студентами\A. Наблюдение за студентами.csproj", "{280FB140-51D4-4CA5-BBC2-6CB97D41AAC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Точки и отрезки", "Тренировки 1.0\7. Сортировка событий\B. Точки и отрезки\B. Точки и отрезки.csproj", "{D168E004-FB7F-4F56-844A-E3BE9315E4DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B. Точки и отрезки", "Тренировки 1.0\7. Сортировка событий\B. Точки и отрезки\B. Точки и отрезки.csproj", "{D168E004-FB7F-4F56-844A-E3BE9315E4DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C. Рассадка в аудитории", "Тренировки 1.0\7. Сортировка событий\C. Рассадка в аудитории\C. Рассадка в аудитории.csproj", "{33D394BB-EA42-40D3-AAB2-E46F8E4B619A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Рассадка в аудитории", "Тренировки 1.0\7. Сортировка событий\C. Рассадка в аудитории\C. Рассадка в аудитории.csproj", "{33D394BB-EA42-40D3-AAB2-E46F8E4B619A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D. Реклама", "Тренировки 1.0\7. Сортировка событий\D. Реклама\D. Реклама.csproj", "{328FFD40-B718-4D29-8BEE-8A02BF5F9796}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Реклама", "Тренировки 1.0\7. Сортировка событий\D. Реклама\D. Реклама.csproj", "{328FFD40-B718-4D29-8BEE-8A02BF5F9796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Кассы", "Тренировки 1.0\7. Сортировка событий\E. Кассы\E. Кассы.csproj", "{0D655740-4649-450A-A483-6F5A3524283D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -427,6 +429,10 @@ Global
 		{328FFD40-B718-4D29-8BEE-8A02BF5F9796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{328FFD40-B718-4D29-8BEE-8A02BF5F9796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{328FFD40-B718-4D29-8BEE-8A02BF5F9796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D655740-4649-450A-A483-6F5A3524283D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D655740-4649-450A-A483-6F5A3524283D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D655740-4649-450A-A483-6F5A3524283D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D655740-4649-450A-A483-6F5A3524283D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -504,6 +510,7 @@ Global
 		{D168E004-FB7F-4F56-844A-E3BE9315E4DD} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 		{33D394BB-EA42-40D3-AAB2-E46F8E4B619A} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 		{328FFD40-B718-4D29-8BEE-8A02BF5F9796} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
+		{0D655740-4649-450A-A483-6F5A3524283D} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
