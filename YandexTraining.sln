@@ -153,7 +153,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Рассадка в ау
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Реклама", "Тренировки 1.0\7. Сортировка событий\D. Реклама\D. Реклама.csproj", "{328FFD40-B718-4D29-8BEE-8A02BF5F9796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Кассы", "Тренировки 1.0\7. Сортировка событий\E. Кассы\E. Кассы.csproj", "{0D655740-4649-450A-A483-6F5A3524283D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E. Кассы", "Тренировки 1.0\7. Сортировка событий\E. Кассы\E. Кассы.csproj", "{0D655740-4649-450A-A483-6F5A3524283D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F. Современники", "Тренировки 1.0\7. Сортировка событий\F. Современники\F. Современники.csproj", "{11261F2E-72AB-49C8-ADE7-189A382BE4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Детский праздник", "Тренировки 1.0\7. Сортировка событий\G. Детский праздник\G. Детский праздник.csproj", "{DDA23178-6DEE-4903-8B48-DDA0F4B5A78C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -433,6 +437,14 @@ Global
 		{0D655740-4649-450A-A483-6F5A3524283D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D655740-4649-450A-A483-6F5A3524283D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D655740-4649-450A-A483-6F5A3524283D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11261F2E-72AB-49C8-ADE7-189A382BE4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11261F2E-72AB-49C8-ADE7-189A382BE4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11261F2E-72AB-49C8-ADE7-189A382BE4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11261F2E-72AB-49C8-ADE7-189A382BE4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA23178-6DEE-4903-8B48-DDA0F4B5A78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA23178-6DEE-4903-8B48-DDA0F4B5A78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA23178-6DEE-4903-8B48-DDA0F4B5A78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA23178-6DEE-4903-8B48-DDA0F4B5A78C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -511,6 +523,8 @@ Global
 		{33D394BB-EA42-40D3-AAB2-E46F8E4B619A} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 		{328FFD40-B718-4D29-8BEE-8A02BF5F9796} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 		{0D655740-4649-450A-A483-6F5A3524283D} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
+		{11261F2E-72AB-49C8-ADE7-189A382BE4E2} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
+		{DDA23178-6DEE-4903-8B48-DDA0F4B5A78C} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
