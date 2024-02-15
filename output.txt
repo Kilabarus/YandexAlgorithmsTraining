@@ -1,2 +1,4 @@
-Wrong Answer
-Accepted
+YES
+2
+1
+2

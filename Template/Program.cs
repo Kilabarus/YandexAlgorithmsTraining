@@ -30,14 +30,14 @@ namespace YandexTraining
 
         static string Solve(List<string> input)
         {
-            List<int> ConvertStringToListOfInt32(string ints)
+            static List<int> ConvertStringToListOfInt32(string ints)
             {
                 return ints.Split(' ', StringSplitOptions.RemoveEmptyEntries)
                            .Select(int.Parse)
                            .ToList();
             }
 
-            StringBuilder output = new StringBuilder();
+            StringBuilder output = new();
 
             
 
