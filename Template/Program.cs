@@ -27,21 +27,38 @@ namespace YandexTraining
 
             File.WriteAllText(outputFile, output);            
         }
+        
+        static List<int> GetListOfInt32Args(string input)
+        {
+            return input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                        .Select(int.Parse)
+                        .ToList();
+        }
+
+        static (int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8) GetTupleOfInt32Args(string input)
+        {
+            var args = GetListOfInt32Args(input);
+
+            return args.Count switch
+            {
+                8 => (args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]),
+                7 => (args[0], args[1], args[2], args[3], args[4], args[5], args[6], 0),
+                6 => (args[0], args[1], args[2], args[3], args[4], args[5], 0, 0),
+                5 => (args[0], args[1], args[2], args[3], args[4], 0, 0, 0),
+                4 => (args[0], args[1], args[2], args[3], 0, 0, 0, 0),
+                3 => (args[0], args[1], args[2], 0, 0, 0, 0, 0),
+                2 => (args[0], args[1], 0, 0, 0, 0, 0, 0),
+                _ => (args[0], 0, 0, 0, 0, 0, 0, 0),
+            };
+        }
+
+        static StringBuilder AnswerBuilder = new();
 
         static string Solve(List<string> input)
         {
-            static List<int> ConvertStringToListOfInt32(string ints)
-            {
-                return ints.Split(' ', StringSplitOptions.RemoveEmptyEntries)
-                           .Select(int.Parse)
-                           .ToList();
-            }
 
-            StringBuilder output = new();
 
-            
-
-            return output.ToString();
+            return AnswerBuilder.ToString();
         }
 
         static void Main(string[] args)

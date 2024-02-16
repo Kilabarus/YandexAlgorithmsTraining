@@ -163,7 +163,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H. Охрана", "Трен
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I. Автобусы", "Тренировки 1.0\7. Сортировка событий\I. Автобусы\I. Автобусы.csproj", "{E3B57564-582E-4FC4-9AC7-5EF69398B5FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. НГУ-стройка", "Тренировки 1.0\7. Сортировка событий\J. НГУ-стройка\J. НГУ-стройка.csproj", "{0A0D76C6-2302-418E-A9FA-D1C1D28C33FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. НГУ-стройка", "Тренировки 1.0\7. Сортировка событий\J. НГУ-стройка\J. НГУ-стройка.csproj", "{0A0D76C6-2302-418E-A9FA-D1C1D28C33FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Деревья", "8. Деревья", "{998AD3B9-12D0-485C-B5DC-36121E1CD35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Высота дерева", "Тренировки 1.0\8. Деревья\A. Высота дерева\A. Высота дерева.csproj", "{87881057-D6DB-42C2-A269-8E350D17BE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -463,6 +467,10 @@ Global
 		{0A0D76C6-2302-418E-A9FA-D1C1D28C33FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A0D76C6-2302-418E-A9FA-D1C1D28C33FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A0D76C6-2302-418E-A9FA-D1C1D28C33FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87881057-D6DB-42C2-A269-8E350D17BE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87881057-D6DB-42C2-A269-8E350D17BE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87881057-D6DB-42C2-A269-8E350D17BE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87881057-D6DB-42C2-A269-8E350D17BE85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -546,6 +554,8 @@ Global
 		{E8ADEEA6-9F17-47CE-B2CF-E4530168D0B0} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 		{E3B57564-582E-4FC4-9AC7-5EF69398B5FE} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
 		{0A0D76C6-2302-418E-A9FA-D1C1D28C33FC} = {CC4525CF-F72F-4DC7-9254-78ECAC510228}
+		{998AD3B9-12D0-485C-B5DC-36121E1CD35F} = {7E462ECA-C891-4C4A-9CED-E342D1046DF4}
+		{87881057-D6DB-42C2-A269-8E350D17BE85} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
