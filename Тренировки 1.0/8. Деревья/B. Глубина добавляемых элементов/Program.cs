@@ -1,0 +1,168 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.ComponentModel;
+
+
+namespace YandexTraining
+{
+    internal class Program
+    {
+        const string LOCAL_INPUT_FILE = @"C:\Users\Admin\Desktop\Programming\.NET\Programs\YandexTraining\input.txt";
+        const string SERVER_INPUT_FILE = "input.txt";
+
+        const string LOCAL_OUTPUT_FILE = @"C:\Users\Admin\Desktop\Programming\.NET\Programs\YandexTraining\output.txt";
+        const string SERVER_OUTPUT_FILE = "output.txt";
+
+        static List<string> ReadInput() => File.Exists(LOCAL_INPUT_FILE)
+            ? File.ReadAllLines(LOCAL_INPUT_FILE).ToList()
+            : File.ReadAllLines(SERVER_INPUT_FILE).ToList();
+
+        static void WriteOutput(string output)
+        {
+            string outputFile = File.Exists(LOCAL_OUTPUT_FILE)
+                ? LOCAL_OUTPUT_FILE
+                : SERVER_OUTPUT_FILE;
+
+            File.WriteAllText(outputFile, output);
+        }
+
+        static List<int> GetListOfInt32Args(string input)
+        {
+            return input.Split(' ', StringSplitOptions.RemoveEmptyEntries)
+                        .Select(int.Parse)
+                        .ToList();
+        }
+
+        static (int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8) GetTupleOfInt32Args(string input)
+        {
+            var args = GetListOfInt32Args(input);
+
+            return args.Count switch
+            {
+                8 => (args[0], args[1], args[2], args[3], args[4], args[5], args[6], args[7]),
+                7 => (args[0], args[1], args[2], args[3], args[4], args[5], args[6], 0),
+                6 => (args[0], args[1], args[2], args[3], args[4], args[5], 0, 0),
+                5 => (args[0], args[1], args[2], args[3], args[4], 0, 0, 0),
+                4 => (args[0], args[1], args[2], args[3], 0, 0, 0, 0),
+                3 => (args[0], args[1], args[2], 0, 0, 0, 0, 0),
+                2 => (args[0], args[1], 0, 0, 0, 0, 0, 0),
+                _ => (args[0], 0, 0, 0, 0, 0, 0, 0),
+            };
+        }
+
+        static StringBuilder AnswerBuilder = new();
+
+        class Node
+        {
+            public int Value;
+            public Node Left, Right, Parent;
+        }
+
+        class SimpleBinarySearchTree
+        {
+            Node _root;
+
+            public int GetHeight()
+            {
+                if (_root is null)
+                {
+                    return 0;
+                }
+
+                return GetHeight(_root, 1);
+            }
+
+            public int GetHeight(Node root, int currHeight)
+            {
+                if (root.Left is null && root.Right is null)
+                {
+                    return currHeight;
+                }
+
+                if (root.Left is null)
+                {
+                    return GetHeight(root.Right, currHeight + 1);
+                }
+
+                if (root.Right is null)
+                {
+                    return GetHeight(root.Left, currHeight + 1);
+                }
+
+                return Math.Max(GetHeight(root.Left, currHeight + 1), GetHeight(root.Right, currHeight + 1));
+            }
+
+            public int Add(int value)
+            {
+                if (_root is null)
+                {
+                    _root = new Node() { Value = value };
+                    return 1;
+                }
+
+                return Add(_root, value, 1);
+            }
+
+            private int Add(Node root, int value, int currDepth)
+            {
+                if (value < root.Value)
+                {
+                    if (root.Left is null)
+                    {
+                        root.Left = new Node() { Parent = root, Value = value };
+                        return currDepth + 1;
+                    }
+
+                    return Add(root.Left, value, currDepth + 1);                    
+                }
+
+                if (value > root.Value)
+                {
+                    if (root.Right is null)
+                    {
+                        root.Right = new Node() { Parent = root, Value = value };
+                        return currDepth + 1;
+                    }
+
+                    return Add(root.Right, value, currDepth + 1);                    
+                }
+
+                return -1;
+            }
+        }
+
+        static string Solve(List<string> input)
+        {
+            SimpleBinarySearchTree bst = new();
+
+            var args = GetListOfInt32Args(input[0]);
+            for (int i = 0; i < args.Count; i++)
+            {
+                if (args[i] == 0)
+                {                    
+                    break;
+                }
+
+                int depth = bst.Add(args[i]);
+                if (depth != -1)
+                {
+                    AnswerBuilder.Append($"{depth} ");
+                }
+            }
+
+            return AnswerBuilder.ToString().TrimEnd();
+        }
+
+        static void Main(string[] args)
+        {
+            string output = Solve(ReadInput());
+
+            WriteOutput(output);
+            Console.WriteLine(output);
+        }
+    }
+}
