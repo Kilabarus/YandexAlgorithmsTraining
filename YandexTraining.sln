@@ -167,25 +167,49 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. НГУ-стройка", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Деревья", "8. Деревья", "{998AD3B9-12D0-485C-B5DC-36121E1CD35F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Высота дерева", "Тренировки 1.0\8. Деревья\A. Высота дерева\A. Высота дерева.csproj", "{87881057-D6DB-42C2-A269-8E350D17BE85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A. Высота дерева", "Тренировки 1.0\8. Деревья\A. Высота дерева\A. Высота дерева.csproj", "{87881057-D6DB-42C2-A269-8E350D17BE85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Глубина добавляемых элементов", "Тренировки 1.0\8. Деревья\B. Глубина добавляемых элементов\B. Глубина добавляемых элементов.csproj", "{1165B561-27B4-4506-BD3F-38D8725F89F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B. Глубина добавляемых элементов", "Тренировки 1.0\8. Деревья\B. Глубина добавляемых элементов\B. Глубина добавляемых элементов.csproj", "{1165B561-27B4-4506-BD3F-38D8725F89F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C. Второй максимум", "Тренировки 1.0\8. Деревья\C. Второй максимум\C. Второй максимум.csproj", "{D47B9A83-D6A6-4F07-B00A-C85872F85820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C. Второй максимум", "Тренировки 1.0\8. Деревья\C. Второй максимум\C. Второй максимум.csproj", "{D47B9A83-D6A6-4F07-B00A-C85872F85820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D. Обход", "Тренировки 1.0\8. Деревья\D. Обход\D. Обход.csproj", "{638F81D9-71C5-49C9-A940-86533106A4E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D. Обход", "Тренировки 1.0\8. Деревья\D. Обход\D. Обход.csproj", "{638F81D9-71C5-49C9-A940-86533106A4E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Вывод листьев", "Тренировки 1.0\8. Деревья\E. Вывод листьев\E. Вывод листьев.csproj", "{EAB7D7B6-2F09-4A1C-B0F6-407AB92B9EE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E. Вывод листьев", "Тренировки 1.0\8. Деревья\E. Вывод листьев\E. Вывод листьев.csproj", "{EAB7D7B6-2F09-4A1C-B0F6-407AB92B9EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F. Вывод развилок", "Тренировки 1.0\8. Деревья\F. Вывод развилок\F. Вывод развилок.csproj", "{92C63450-60CD-4C80-BBCE-40283D4F8D8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F. Вывод развилок", "Тренировки 1.0\8. Деревья\F. Вывод развилок\F. Вывод развилок.csproj", "{92C63450-60CD-4C80-BBCE-40283D4F8D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Вывод веток", "Тренировки 1.0\8. Деревья\G. Вывод веток\G. Вывод веток.csproj", "{F9F38A9D-66BE-493C-A300-36C1D39BBEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G. Вывод веток", "Тренировки 1.0\8. Деревья\G. Вывод веток\G. Вывод веток.csproj", "{F9F38A9D-66BE-493C-A300-36C1D39BBEE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H. АВЛ-сбалансированность", "Тренировки 1.0\8. Деревья\H. АВЛ-сбалансированность\H. АВЛ-сбалансированность.csproj", "{4479323E-F0A4-4EC5-A91F-BB17F187C147}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H. АВЛ-сбалансированность", "Тренировки 1.0\8. Деревья\H. АВЛ-сбалансированность\H. АВЛ-сбалансированность.csproj", "{4479323E-F0A4-4EC5-A91F-BB17F187C147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I. Родословная - число потомков", "Тренировки 1.0\8. Деревья\I. Родословная - число потомков\I. Родословная - число потомков.csproj", "{21ADF9A0-01FC-407D-B794-9A5B3F77923C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I. Родословная - число потомков", "Тренировки 1.0\8. Деревья\I. Родословная - число потомков\I. Родословная - число потомков.csproj", "{21ADF9A0-01FC-407D-B794-9A5B3F77923C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. Родословная - подсчет уровней", "Тренировки 1.0\8. Деревья\J. Родословная - подсчет уровней\J. Родословная - подсчет уровней.csproj", "{201EDC7C-B76D-4E66-A710-AC65F6FA3676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "J. Родословная - подсчет уровней", "Тренировки 1.0\8. Деревья\J. Родословная - подсчет уровней\J. Родословная - подсчет уровней.csproj", "{201EDC7C-B76D-4E66-A710-AC65F6FA3676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Тренировки 2.0", "Тренировки 2.0", "{11F4AA21-D6A2-455C-AF4B-9D1E2DC52F4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Дивизион B", "Дивизион B", "{521A175B-2942-47A1-B207-94B311EF6E5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Дивизион A", "Дивизион A", "{65320D93-615C-4BE8-ADCE-DECC781C0668}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Домашнее задание №1", "Домашнее задание №1", "{614B9FDB-66D4-40E4-8307-5D26CBF7288D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Домашнее задание №2", "Домашнее задание №2", "{4559A1C2-E666-4F38-8453-F8569A984FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Домашнее задание №1", "Домашнее задание №1", "{9ED285EF-1CFB-4688-860F-259874DDD87E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Домашнее задание №2", "Домашнее задание №2", "{9C9714C6-989C-4DE1-96D3-924CA508533D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A. Interactor", "Тренировки 2.0\Дивизион B\Домашнее задание №1\A. Interactor\A. Interactor.csproj", "{4B2E00F0-79E8-43C5-9340-A472A83ECFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B. Кольцевая линия метро", "Тренировки 2.0\Дивизион B\Домашнее задание №1\B. Кольцевая линия метро\B. Кольцевая линия метро.csproj", "{2980F34E-FAAB-4A17-B1D1-18ECA98AFBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C. Даты", "Тренировки 2.0\Дивизион B\Домашнее задание №1\C. Даты\C. Даты.csproj", "{89A78796-1375-4504-A2E3-CC04CBB61338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D. Строительство школы", "Тренировки 2.0\Дивизион B\Домашнее задание №1\D. Строительство школы\D. Строительство школы.csproj", "{409F5879-6537-410D-B0B7-DE4AA08C4260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E. Точка и треугольник", "Тренировки 2.0\Дивизион B\Домашнее задание №1\E. Точка и треугольник\E. Точка и треугольник.csproj", "{1A16DA31-768F-46D4-B7CA-9B8A0B078ED4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +549,26 @@ Global
 		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2E00F0-79E8-43C5-9340-A472A83ECFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2E00F0-79E8-43C5-9340-A472A83ECFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2E00F0-79E8-43C5-9340-A472A83ECFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2E00F0-79E8-43C5-9340-A472A83ECFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2980F34E-FAAB-4A17-B1D1-18ECA98AFBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2980F34E-FAAB-4A17-B1D1-18ECA98AFBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2980F34E-FAAB-4A17-B1D1-18ECA98AFBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2980F34E-FAAB-4A17-B1D1-18ECA98AFBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A78796-1375-4504-A2E3-CC04CBB61338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A78796-1375-4504-A2E3-CC04CBB61338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A78796-1375-4504-A2E3-CC04CBB61338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A78796-1375-4504-A2E3-CC04CBB61338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409F5879-6537-410D-B0B7-DE4AA08C4260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409F5879-6537-410D-B0B7-DE4AA08C4260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409F5879-6537-410D-B0B7-DE4AA08C4260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409F5879-6537-410D-B0B7-DE4AA08C4260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A16DA31-768F-46D4-B7CA-9B8A0B078ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A16DA31-768F-46D4-B7CA-9B8A0B078ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A16DA31-768F-46D4-B7CA-9B8A0B078ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A16DA31-768F-46D4-B7CA-9B8A0B078ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -619,6 +663,17 @@ Global
 		{4479323E-F0A4-4EC5-A91F-BB17F187C147} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
 		{21ADF9A0-01FC-407D-B794-9A5B3F77923C} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
 		{201EDC7C-B76D-4E66-A710-AC65F6FA3676} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
+		{521A175B-2942-47A1-B207-94B311EF6E5D} = {11F4AA21-D6A2-455C-AF4B-9D1E2DC52F4B}
+		{65320D93-615C-4BE8-ADCE-DECC781C0668} = {11F4AA21-D6A2-455C-AF4B-9D1E2DC52F4B}
+		{614B9FDB-66D4-40E4-8307-5D26CBF7288D} = {65320D93-615C-4BE8-ADCE-DECC781C0668}
+		{4559A1C2-E666-4F38-8453-F8569A984FC5} = {65320D93-615C-4BE8-ADCE-DECC781C0668}
+		{9ED285EF-1CFB-4688-860F-259874DDD87E} = {521A175B-2942-47A1-B207-94B311EF6E5D}
+		{9C9714C6-989C-4DE1-96D3-924CA508533D} = {521A175B-2942-47A1-B207-94B311EF6E5D}
+		{4B2E00F0-79E8-43C5-9340-A472A83ECFFD} = {9ED285EF-1CFB-4688-860F-259874DDD87E}
+		{2980F34E-FAAB-4A17-B1D1-18ECA98AFBC4} = {9ED285EF-1CFB-4688-860F-259874DDD87E}
+		{89A78796-1375-4504-A2E3-CC04CBB61338} = {9ED285EF-1CFB-4688-860F-259874DDD87E}
+		{409F5879-6537-410D-B0B7-DE4AA08C4260} = {9ED285EF-1CFB-4688-860F-259874DDD87E}
+		{1A16DA31-768F-46D4-B7CA-9B8A0B078ED4} = {9ED285EF-1CFB-4688-860F-259874DDD87E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
