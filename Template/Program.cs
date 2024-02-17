@@ -28,6 +28,11 @@ namespace YandexTraining
             File.WriteAllText(outputFile, output);            
         }
         
+        static List<string> GetListOfStringArgs(string input)
+        {
+            return input.Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
+        }
+
         static List<int> GetListOfInt32Args(string input)
         {
             return input.Split(' ', StringSplitOptions.RemoveEmptyEntries)

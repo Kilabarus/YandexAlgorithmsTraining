@@ -183,6 +183,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G. Вывод веток", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H. АВЛ-сбалансированность", "Тренировки 1.0\8. Деревья\H. АВЛ-сбалансированность\H. АВЛ-сбалансированность.csproj", "{4479323E-F0A4-4EC5-A91F-BB17F187C147}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I. Родословная - число потомков", "Тренировки 1.0\8. Деревья\I. Родословная - число потомков\I. Родословная - число потомков.csproj", "{21ADF9A0-01FC-407D-B794-9A5B3F77923C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J. Родословная - подсчет уровней", "Тренировки 1.0\8. Деревья\J. Родословная - подсчет уровней\J. Родословная - подсчет уровней.csproj", "{201EDC7C-B76D-4E66-A710-AC65F6FA3676}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -513,6 +517,14 @@ Global
 		{4479323E-F0A4-4EC5-A91F-BB17F187C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4479323E-F0A4-4EC5-A91F-BB17F187C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4479323E-F0A4-4EC5-A91F-BB17F187C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21ADF9A0-01FC-407D-B794-9A5B3F77923C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21ADF9A0-01FC-407D-B794-9A5B3F77923C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21ADF9A0-01FC-407D-B794-9A5B3F77923C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21ADF9A0-01FC-407D-B794-9A5B3F77923C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201EDC7C-B76D-4E66-A710-AC65F6FA3676}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -605,6 +617,8 @@ Global
 		{92C63450-60CD-4C80-BBCE-40283D4F8D8C} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
 		{F9F38A9D-66BE-493C-A300-36C1D39BBEE5} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
 		{4479323E-F0A4-4EC5-A91F-BB17F187C147} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
+		{21ADF9A0-01FC-407D-B794-9A5B3F77923C} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
+		{201EDC7C-B76D-4E66-A710-AC65F6FA3676} = {998AD3B9-12D0-485C-B5DC-36121E1CD35F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E795D277-56A5-46C4-B7C1-74242DA874B0}
